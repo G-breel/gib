@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>punya kuu</title>
+</head> 
+<body>
+    <style>
+        body{
+            
+            background-color: rgb(255, 94, 0);
+        }
+        h1 {
+            text-align: center;
+        }
+        .navbar ul{
+            list-style-type: none;
+            background-color: rgba(229, 187, 0, 0.845);
+            padding: 0px;
+            margin: 0px;
+            overflow: hidden;
+        }
+        .navbar a{
+            color: black;
+            text-decoration: none;
+            padding: 15px;
+            display: block;
+            text-align: center;
+        }
+        .navbar a:hover{
+            background-color:  rgb(255, 94, 0);
+        }
+        .navbar li{
+            float: left;
+        }
+        </style>
+        <body>
+            <nav class="navbar">
+                <ul>
+                    <li> <a href="home.html">Home</a></li>
+                    <li> <a href="biodata.html">Table</a></li>
+                    <li> <a href="form.html">Form</a></li>
+                    <li> <a href="tabel.html">Biodata</a></li> 
+                    <li style="float: right;"> <a href="login.html">login</a> </li>
+                </ul>
+        
+            </nav>
+        
+
+    <h1> Nama :jibril fathanneo <br>
+        Kelas  : 10-PPLG-3</h1>
+    </center>
+    </div>
+    <form action="index.php" method="POST" enctype="multipart/form-data">
+        <fieldset style="background-color: brown;">
+            <legend style="color:white;" background-color="black;">BIODATA</legend>
+
+        <label for="username" >Nama Lengkap:</label> <br>
+        <input type="text" id="username" name="username" style="background-color:#c3d7e0;"><br>
+
+        <label for="nickname">Nickname:</label> <br>
+        <input type="text" id="nickname" name="nickname" style="background-color:#c3d7e0;"><br>
+
+        <label for="email">Email:</label> <br>
+        <input type="email" id="email" style="background-color:#c3d7e0;"><br>
+
+        <label for="phone">No Telefon :</label> <br>
+        <input type="tel" id="phone"style="background-color:#c3d7e0;"><br>
+
+        <label for="tanggal">Tanggal Lahir:</label> <br>
+        <input type="date" id="tanggal" style="background-color:#c3d7e0;"><br>
+
+        <label for="umur">Umur:</label> <br>
+        <input type="number" id="umur" min="0" max="99" value="isi" style="background-color:#c3d7e0;"><br>
+
+        <label for="gender">Gender:</label> <br>
+        
+        <input type="radio" id="laki-laki" value="laki-laki" name="gender"> 
+        <label for="laki-laki">Laki-laki</label> <br>
+        <input type="radio" id="perempuan" value="Perempuan" name="gender">
+        <label for="perempuan">Perempuan</label>
+         <br>
+
+
+        <label for="subscribe">subscribe:</label>
+        <input type="checkbox" id="subscribe"><br>
+
+        <label for="alamat">Alamat Lengkap:</label>
+        <textarea id="comment" rows="3" cols="25"style="background-color:#c3d7e0;"></textarea><br>
+
+        <input type="submit">
+        </fieldset>
+
+    </form>
+
+</body>
+</html>
